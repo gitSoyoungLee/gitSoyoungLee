@@ -58,5 +58,7 @@ Here are some ideas to get you started:
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gitSoyoungLee&layout=compact" width="38.5%"/>
 </p>
 
+![Stats](./profile/stats.svg)
+![Top Languages](./profile/top-langs.svg)
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=gitSoyoungLee)](https://git.io/streak-stats)
