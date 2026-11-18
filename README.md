@@ -129,12 +129,28 @@
 
 <div align="center">
 
-<a href="https://github.com/gitSoyoungLee#contribution-activity">
+<!-- <a href="https://github.com/gitSoyoungLee#contribution-activity">
   <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="GitHub 3D 기여 그래프"/>
 </a>
 
-<br/><br/>
+<br/><br/> -->
 
+<h2>🌱 3D Contribution Grass &amp; Telemetry</h2>
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Isometric Contribution Grass"/>
+
+  <br/><br/>
+
+  <p>
+    <img src="https://github-readme-stats.vercel.app/api?username=gitSoyoungLee&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=fbbf24&text_color=c9d1d9" height="155"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gitSoyoungLee&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9" height="155"/>
+  </p>
+
+  <p>
+    <img src="https://streak-stats.demolab.com/?user=gitSoyoungLee&theme=tokyonight&hide_border=true&background=0d1117&stroke=1e293b&ring=38bdf8&fire=fbbf24&currStreakLabel=38bdf8" height="155"/>
+  </p>
+
+  <br/>
+  
 <img src="./profile/top-langs.svg" height="152" alt="사용 언어 통계"/>
 <img src="./profile/streak.svg" height="152" alt="GitHub 연속 활동 통계"/>
 
