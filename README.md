@@ -154,7 +154,6 @@
 <img src="./profile/top-langs.svg" height="152" alt="사용 언어 통계"/>
 <img src="./profile/streak.svg" height="152" alt="GitHub 연속 활동 통계"/>
 
-<p><a href="https://github.com/gitSoyoungLee#contribution-activity">GitHub 기여 내역 보기 →</a></p>
 
 </div>
 
