@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 190" width="100%" height="100%">
+  <defs>
+    <filter id="cardDrop" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="6" flood-color="#020617" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <style>
+    .c-title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 15.5px;
+      font-weight: 800;
+      fill: #f8fafc;
+    }
+    .c-sub {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 12px;
+      fill: #94a3b8;
+    }
+    .c-tag {
+      font-family: "SFMono-Regular", Consolas, monospace;
+      font-size: 10.5px;
+      font-weight: 700;
+    }
+    .float1 { animation: floatCard 3.6s ease-in-out infinite; }
+    .float2 { animation: floatCard 3.6s ease-in-out 1.2s infinite; }
+    .float3 { animation: floatCard 3.6s ease-in-out 2.4s infinite; }
+    .cubeBounce { animation: bounceCube 2.6s ease-in-out infinite; }
+    @keyframes floatCard {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+    @keyframes bounceCube {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-5px); }
+    }
+  </style>
+
+  <!-- Project card -->
+  <g transform="translate(15, 16)" filter="url(#cardDrop)">
+    <g class="float1">
+      <!-- 3D Extrusion Depth Base -->
+      <rect x="0" y="10" width="296" height="146" rx="18" fill="#4c1d95"/>
+      <!-- Card Surface -->
+      <rect x="0" y="0" width="296" height="146" rx="18" fill="#0f172a" stroke="#8b5cf6" stroke-width="2"/>
+      <!-- 3D Isometric Cube Icon (Left) -->
+      <g transform="translate(46, 56)" class="cubeBounce">
+        <polygon points="0,-24 22,-12 0,0 -22,-12" fill="#c4b5fd"/>
+        <polygon points="-22,-12 0,0 0,26 -22,14" fill="#8b5cf6"/>
+        <polygon points="0,0 22,-12 22,14 0,26" fill="#6d28d9"/>
+      </g>
+      <!-- Text -->
+      <rect x="86" y="22" width="136" height="20" rx="10" fill="#2e1065"/>
+      <text x="154" y="36" text-anchor="middle" class="c-tag" fill="#c4b5fd">AUTH &amp; LATENCY</text>
+      <text x="86" y="64" class="c-title">옷장을 부탁해</text>
+      <text x="86" y="84" class="c-title" fill="#a78bfa">4초 → 0.7초</text>
+      <text x="86" y="108" class="c-sub">비밀번호 초기화 응답</text>
+      <text x="86" y="125" class="c-sub">이메일 발송을 비동기로 분리</text>
+    </g>
+  </g>
+
+  <!-- Project card -->
+  <g transform="translate(332, 16)" filter="url(#cardDrop)">
+    <g class="float2">
+      <!-- 3D Extrusion Depth Base -->
+      <rect x="0" y="10" width="296" height="146" rx="18" fill="#0369a1"/>
+      <!-- Card Surface -->
+      <rect x="0" y="0" width="296" height="146" rx="18" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+      <!-- 3D Isometric Cube Icon (Left) -->
+      <g transform="translate(46, 56)" class="cubeBounce">
+        <polygon points="0,-24 22,-12 0,0 -22,-12" fill="#a5f3fc"/>
+        <polygon points="-22,-12 0,0 0,26 -22,14" fill="#22d3ee"/>
+        <polygon points="0,0 22,-12 22,14 0,26" fill="#0284c7"/>
+      </g>
+      <!-- Text -->
+      <rect x="86" y="22" width="132" height="20" rx="10" fill="#083344"/>
+      <text x="152" y="36" text-anchor="middle" class="c-tag" fill="#67e8f9">QUERY OPTIMIZATION</text>
+      <text x="86" y="64" class="c-title">모두의 뉴스</text>
+      <text x="86" y="84" class="c-title" fill="#38bdf8">102회 → 4회</text>
+      <text x="86" y="108" class="c-sub">기사 50건 조회 기준</text>
+      <text x="86" y="125" class="c-sub">배치 조회로 N+1 개선</text>
+    </g>
+  </g>
+
+  <!-- Project card -->
+  <g transform="translate(649, 16)" filter="url(#cardDrop)">
+    <g class="float3">
+      <!-- 3D Extrusion Depth Base -->
+      <rect x="0" y="10" width="296" height="146" rx="18" fill="#b45309"/>
+      <!-- Card Surface -->
+      <rect x="0" y="0" width="296" height="146" rx="18" fill="#0f172a" stroke="#fbbf24" stroke-width="2"/>
+      <!-- 3D Isometric Cube Icon (Left) -->
+      <g transform="translate(46, 56)" class="cubeBounce">
+        <polygon points="0,-24 22,-12 0,0 -22,-12" fill="#fde68a"/>
+        <polygon points="-22,-12 0,0 0,26 -22,14" fill="#fbbf24"/>
+        <polygon points="0,0 22,-12 22,14 0,26" fill="#d97706"/>
+      </g>
+      <!-- Text -->
+      <rect x="86" y="22" width="142" height="20" rx="10" fill="#451a03"/>
+      <text x="157" y="36" text-anchor="middle" class="c-tag" fill="#fde68a">RAG EVALUATION</text>
+      <text x="86" y="64" class="c-title">PostGuard</text>
+      <text x="86" y="84" class="c-title" fill="#fbbf24">70.9% → 94.5%</text>
+      <text x="86" y="108" class="c-sub">검수한 55건 기준 판정 정확도</text>
+      <text x="86" y="125" class="c-sub">답변 인용문을 원문과 대조</text>
+    </g>
+  </g>
+</svg>

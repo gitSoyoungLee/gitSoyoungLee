@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="118" viewBox="0 0 960 118" role="img" aria-labelledby="title">
+  <title id="title">3D 기여 그래프 생성 대기 중</title>
+  <rect x="1" y="1" width="958" height="116" rx="14" fill="#0f172a" stroke="#28405e"/>
+  <path d="M54 59l21-12 21 12-21 12z M54 59v20l21 12 21-12V59 M75 71v20" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linejoin="round"/>
+  <text x="116" y="55" fill="#e0f2fe" font-size="22" font-weight="700" font-family="system-ui,sans-serif">3D 기여 그래프</text>
+  <text x="116" y="84" fill="#a6c0dd" font-size="16" font-family="system-ui,sans-serif">GitHub Actions가 처음 성공하면 활동 그래프가 표시됩니다.</text>
+</svg>
