@@ -57,7 +57,6 @@
 | [모두의 뉴스](https://github.com/gitSoyoungLee/monew) | 페이지네이션, 조회 성능, 모니터링 | 기사 50건 조회 쿼리 **102회 → 4회** |
 | [광고 성과 대시보드](https://github.com/gitSoyoungLee/ad_dashboard) | 백엔드·프론트엔드 구현 | 광고 지표 조회와 AI 분석 기능 |
 | [PostGuard](https://github.com/gitSoyoungLee/post-rag-chatbot) | 규정 수집, RAG 흐름, 근거 검증 | 55건 검수 기준 정확도 **70.9% → 94.5%** |
-| [RunBeat](https://github.com/gitSoyoungLee/RunBeat) | 안드로이드 러닝 기록 | 실기기 피드백을 반영하며 개발 중 |
 
 <details>
 <summary><strong>프로젝트별 문제 해결 과정 보기</strong></summary>
@@ -114,15 +113,6 @@
 - 직접 검수한 정답 55건 기준 판정 정확도 **70.9% → 94.5%**
 
 <br/>
-
-### 🏃 RunBeat &nbsp; <sub>초보 러너를 위한 안드로이드 러닝 앱 | 개인 | 2026.10 ~ 개발 중</sub>
-
-<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white"/> <img src="https://img.shields.io/badge/OpenStreetMap-7EBC6F?style=flat-square&logo=openstreetmap&logoColor=white"/>
-
-- 인터벌 코스 편집, 케이던스 메트로놈, 1km 구간 음성 안내, 자동 일시정지
-- 화면이 꺼져도 기록이 이어지도록 **Foreground Service**에서 GPS, 걸음 센서, 타이머를 관리
-- 실기기 테스트에서 찾은 문제를 **버전별로 원인과 해결까지 기록**하며 개선 중
-
 </details>
 
 ## 📈 GitHub 활동
